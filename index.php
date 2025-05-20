@@ -34,35 +34,34 @@ require_once 'header.php';
     <div class="div9"></div>
 </section>
 <!--end about me-->
+<img class="border_project" src="img/border_project.png" alt="">
 
+
+<div class="projects">
+<img src="img/test.png" alt="">
 <section class="character_sheet">
     <h2>Character Sheet</h2>
     <div class="character_grid">
-        @foreach ($websites as $website)
         <div class="character_info">
             <h3>Project details</h3>
-            <p><strong>Name:</strong> {{ $website->name }}</p>
-            <p><strong>Customer:</strong> {{ $website->customer }}</p>
-            <p><strong>Type:</strong> {{ $website->type }}</p>
-            <p><strong>Development:</strong> {{ $website->development }}</p>
-            <p><strong>Concept:</strong> {{ $website->concept }}</p>
+            <p><strong>Name:</strong>Shield space</p>
+            <p><strong>Customer:</strong>School</p>
+            <p><strong>Type:</strong>Dev + Design</p>
+            <p><strong>Development:</strong>Full-stack</p>
+            <p><strong>Concept:</strong>Veilige fietsen stalling</p>
         </div>
 
         <div class="disciplines">
             <h3>Disciplines</h3>
-            <p>Design: <span class="dots">{{ generateDots($website->design) }}</span></p>
-            <p>Front-end: <span class="dots">{{ generateDots($website->frontend) }}</span></p>
-            <p>Back-end: <span class="dots">{{ generateDots($website->backend) }}</span></p>
-            <p>Database: <span class="dots">{{ generateDots($website->database) }}</span></p>
+            <p>Design: <span class="dots">⚪⚪⚫⚫</span></p>
+            <p>Front-end: <span class="dots">⚪⚪⚪⚫</span></p>
+            <p>Back-end: <span class="dots">⚪⚪⚪⚫</span></p>
+            <p>Database: <span class="dots">⚪⚪⚫⚫</span></p>
         </div>
-
-        <button>
-            <a href="{{ $website->url }}" target="_blank">Visit Website</a>
-        </button>
-        @endforeach
-
+    </div>
 </section>
-
+</div>
+<img class="border_project" src="img/border_project.png" alt="">
 
 <section class="slider-test">
     <div class="your-slider">

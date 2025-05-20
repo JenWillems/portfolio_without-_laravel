@@ -8,6 +8,7 @@ body {
     padding: 0;
     line-height: 1.6;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    background-image: url("../img/main_bg.png");
 }
 
 header {

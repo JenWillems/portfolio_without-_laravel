@@ -12,26 +12,29 @@ require_once 'header.php';
         <a href="#">Contact</a>
     </nav>
 
-
-    <div class="banner_titlde">
+<section class="banner">
+    <div class="banner_title">
         <h1 >Jennifer Willems</h1>
     </div>
     <h2 class="subtitle">Web Developer & Designer</h2>
-    <div class="bio">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores autem blanditiis commodi, consectetur corporis dignissimos dolor fugit id laboriosam molestias necessitatibus odio perferendis quam qui quidem suscipit ut vero
-            . Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dignissimos ex facilis fugiat in laboriosam nemo praesentium quam reprehenderit sit. Corporis inventore laborum obcaecati officia quaerat ratione repellendus rerum voluptas.</p>
-        <button>Switch style</button>
-        <img src="{{asset('img/border_le_sombra_v1.png')}}" alt="le sombra border">
-    </div>
+    <img src="img/border_le_sombra.png" alt="">
+    </section>
 
 </header>
-{{--       ---------------------------------------------- project example---------------------------------------------------------}}
+<!-- start about me-->
 <section class="about_me">
-    <h3>lorem ippsum</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque cupiditate dolorem ea eos, facere hic id illum iusto laborum natus nemo nisi porro quibusdam quisquam quo, quod reiciendis repudiandae sit.</p>
-
+    <div class="div1"></div>
+    <div class="inspo"><img src="img/inspo.png" alt=""></div>
+    <div class="ervaring"><img src="img/ervaring.png" alt=""></div>
+    <div class="about"><img src="img/about.png" alt=""></div>
+    <div class="div5"></div>
+    <div class="div6"></div>
+    <div class="div7"></div>
+    <div class="div8"></div>
+    <div class="div9"></div>
 </section>
-{{----------------------------------------project example---------------------------------------------------------------}}
+<!--end about me-->
+
 <section class="character_sheet">
     <h2>Character Sheet</h2>
     <div class="character_grid">

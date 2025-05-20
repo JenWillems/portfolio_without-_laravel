@@ -1,102 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=UnifrakturMaguntia&display=swap');
+/*start about me*/
+.about_me {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 
-body {
-    background-color: black;
-    color: #e0e0e0;
-    font-family: 'New Gothic Style', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
-
-header {
-    position: relative;
-    border-bottom: 3px double #777;
-    background-image: url("img/banner-portfolio.png");
-    background-size: cover;
-    background-position: center;
-    padding: 0;
+.inspo{
+    margin-top: 50px;
+}
+.ervaring {
+    margin-top: -100px;
+    grid-column-start: 2;
+    grid-row-start: 2;
 }
 
-header h1 {
-    font-family: 'New Gothic Style', sans-serif;
-    letter-spacing: 5px;
-    font-size: 6rem;
-    color: #ccc;
-    border-bottom: 3px double #777;
-    display: inline-block;
-    padding-bottom: 1rem;
-}
+.div4 { grid-column-start: 3; grid-row-start: 2; } .div5 { grid-column-start: 2; grid-row-start: 2; } .div6 { grid-column-start: 1; grid-row-start: 2; } .div7 { grid-column-start: 4; grid-row-start: 1; } .div8 { grid-row-start: 2; }
+/*end about me*/
 
-header h2 {
-    position: relative;
-    z-index: 2;
-    margin: 0;
-}
-
-header .bio {
-    font-family: 'IM Fell English', serif;
-    position: relative;
-    width: 50%;
-    z-index: 2;
-}
-
-header .bio button {
-    background: #0a0a0a;
-    color: #e0e0e0;
-    padding: 10px 30px;
-    font-family: 'New Gothic Style', sans-serif;
-    font-size: 20px;
-    letter-spacing: 3px;
-    border: 4px double #777;
-}
-
-header .bio button:hover {
-    background-color: #ccc;
-    color: #0a0a0a;
-}
-nav{
-    background-image: url("img/nav-redesign.png");
-    background-size: cover;
-    background-position: center;
-    z-index: 3;
-    padding-bottom: 130px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 40px;
-    z-index: 4;
-}
-
-nav a:hover {
-    border-bottom: 5px solid white;
-    z-index: 4;
-}
-
-.banner_title {
-    display: flex;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-}
-
-.banner_title img {
-    width: 140px;
-    height: 120px;
-    margin-right: 30px;
-}
-
-.subtitle {
-    font-size: 2rem;
-    font-family: 'IM Fell English', serif;
-    color: #f2f2f2;
-    font-style: italic;
-}
 
 .grid_projects {
     display: grid;
